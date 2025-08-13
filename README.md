@@ -1,60 +1,43 @@
+
+<div align="center">
+  <img src="https://img.shields.io/badge/status-archived-inactive?style=for-the-badge&color=lightgrey" alt="Archived" />
+  <img src="https://img.shields.io/badge/license-MIT-blue?style=for-the-badge" alt="MIT License" />
+  <img src="https://img.shields.io/badge/language-C%23-blueviolet?style=for-the-badge" alt="C#" />
+  <img src="https://img.shields.io/badge/framework-ASP.NET%20MVC-blue?style=for-the-badge" alt="ASP.NET MVC" />
+  <img src="https://img.shields.io/badge/ano-2019-green?style=for-the-badge" alt="Ano 2019" />
+</div>
+
 # ProjetoTU - Recycling Web Application
 
-**Version:** 3.0  
+> ⚠️ **Este projeto está arquivado e não recebe mais manutenção.**
+>
+> Projeto de TCC desenvolvido em 2019 para a Universidade São Judas. O código está disponível apenas para fins de documentação e referência histórica.
 
-## Overview
+---
 
-ProjetoTU is a web application developed as a final project at Universidade São Judas.  
-Its primary goal is to assist businesses and partners in the proper collection of recyclable materials.
+## Visão Geral
 
-## Features
+ProjetoTU é uma aplicação web criada como trabalho de conclusão de curso (TCC) para auxiliar empresas e parceiros na coleta adequada de materiais recicláveis.
 
-- **User Registration and Authentication:** Secure sign-up and login functionalities for businesses and partners.
-- **Collection Scheduling:** Users can schedule pickups for recyclable materials.
-- **Real-time Notifications:** Stay informed about upcoming collections and status updates.
-- **Administrative Dashboard:** Manage users, schedules, and view analytics.
+## Funcionalidades
 
-## Technologies Used
+- Cadastro e autenticação de usuários (empresas e parceiros)
+- Agendamento de coletas de recicláveis
+- Notificações em tempo real sobre status das coletas
+- Dashboard administrativo para gestão e análise
 
-- **Frontend:**
-  - HTML5, CSS3, JavaScript
-  - [Bootstrap 4](https://getbootstrap.com/)
-  - [jQuery](https://jquery.com/)
-  - [Font Awesome](https://fontawesome.com/)
+## Tecnologias Utilizadas
 
-- **Backend:**
-  - [ASP.NET MVC with Razor](https://dotnet.microsoft.com/apps/aspnet/mvc)
-  - C#
+- **Frontend:** HTML5, CSS3, JavaScript, [Bootstrap 4](https://getbootstrap.com/), [jQuery](https://jquery.com/), [Font Awesome](https://fontawesome.com/)
+- **Backend:** [ASP.NET MVC com Razor](https://dotnet.microsoft.com/apps/aspnet/mvc), C#
+- **Banco de Dados:** [SQL Server 2017](https://www.microsoft.com/en-us/sql-server/sql-server-2017)
+- **Ferramentas:** [Visual Studio 2019](https://visualstudio.microsoft.com/vs/older-downloads/)
+- **Deploy:** [Microsoft Azure - App Service](https://azure.microsoft.com/en-us/services/app-service/)
 
-- **Database:**
-  - [SQL Server 2017](https://www.microsoft.com/en-us/sql-server/sql-server-2017)
+## Aviso
 
-- **Development Tools:**
-  - [Microsoft Visual Studio 2019](https://visualstudio.microsoft.com/vs/older-downloads/)
+Este repositório está arquivado. Não serão aceitos novos issues, pull requests ou atualizações.
 
-- **Deployment:**
-  - [Microsoft Azure - App Service](https://azure.microsoft.com/en-us/services/app-service/)
+## Licença
 
-## Getting Started
-
-To set up the project locally, follow these steps:
-
-1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/luangrezende/reciclatu-dotnet-final.git
-   ```
-
-2. **Open the project in Visual Studio:**
-   - Ensure you have the correct version of Visual Studio installed with ASP.NET development workload.
-
-3. **Set up the database:**
-   - Create a SQL Server database.
-   - Update the connection string in the `web.config` file to match your database credentials.
-
-4. **Run the project:**
-   - Build and run the application using Visual Studio.
-   - Access the app at `http://localhost:xxxx` (replace `xxxx` with the port number shown in Visual Studio).
-
-## License
-
-This project is licensed under the MIT License. See [LICENSE](LICENSE) for details.
+Distribuído sob a licença MIT. Veja [LICENSE](LICENSE) para mais detalhes.
